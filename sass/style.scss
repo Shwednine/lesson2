@@ -306,7 +306,6 @@ a {
     background-position: top center;
     background-repeat: no-repeat;
     padding: 194px 0 164px 0;
-
     &-block {
         width: 100%;
         display: flex;
@@ -566,14 +565,6 @@ a {
         padding: 80px 0;
     }
 
-    .process-image {
-        width: 100%;
-
-        img {
-            max-width: 100%;
-        }
-    }
-
     .process-item {
         padding: 20px;
     }
@@ -661,7 +652,11 @@ a {
     .process {
         padding: 80px 0;
     }
-
+    .process-image {
+        img {
+            width: 350px;
+        }
+    }
     .brands {
         padding: 80px 0;
     }
